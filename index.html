@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz Disney JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Quizz sur Disney !</h1>
+
+    <div class="container-global">
+  
+      <form class="form-quizz">
+  
+            <div class="question-block">
+              <h4>Qui doit absolument rentrer avant minuit ? </h4>
+              
+              <div>
+                  <input type="radio" id="cendrillon" name="q1" value="a"checked>
+                  <label for="Cendrillon">Cendrillon</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id=" Blanche-Neige" name="q1" value="b">
+                  <label for="Blanche-Neige">Blanche-Neige</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id="LaBelleAuBoisDormant" name="q1" value="c">
+                  <label for="LaBelleAuBoisDormant">La belle au bois dormant</label>
+              </div>
+          </div>
+  
+          <div class="question-block">
+              <h4>Comment Merlin déménage-t'il ses meubles ?</h4>
+              <div>
+                  <input type="radio" id="sac" name="q2" value="a" checked>
+                  <label for="sac"> Il les réduit et les range dans son sac</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id="dos" name="q2" value="b">
+                  <label for="dos">Il les charge sur son dos</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id="disparition" name="q2" value="c">
+                  <label for="disparition">Il les fait disparaître</label>
+              </div>
+          </div>
+  
+          <div class="question-block">
+              <h4>Durant la journée, les 7 nains travaillent dans une mine...</h4>
+              <div>
+                  <input type="radio" id="or" name="q3" value="a" checked>
+                  <label for="or"> D'or</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id="diamant" name="q3" value="b">
+                  <label for="diamant">De diamants</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id="charbon" name="q3" value="c">
+                  <label for="charbon">De charbon</label>
+              </div>
+          </div>
+  
+  
+          <div class="question-block">
+              <h4> Les petits chatons de Duchesse se prénomment Marie, Berlioz, et ...</h4>
+  
+              <div>
+                  <input type="radio" id="vincent" name="q4" value="a" checked>
+                  <label for="vincent">Vincent</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id="toulouse" name="q4" value="b">
+                  <label for="toulouse">Toulouse</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id="Claude" name="q4" value="c">
+                  <label for="Claude">Claude</label>
+              </div>
+          </div>
+  
+  
+          <div class="question-block">
+              <h4>Qui chante "Il en faut peu pour être heureux, vraiment très peu pour être heureux..." ?</h4>
+              <div>
+                  <input type="radio" id="Baghera" name="q5" value="a"
+                      checked>
+                  <label for="Baghera">Baghera</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id="simba" name="q5" value="b">
+                  <label for="simba">Simba</label>
+              </div>
+              
+              <div>
+                  <input type="radio" id="baloo" name="q5" value="c">
+                  <label for="baloo">Baloo</label>
+              </div>
+          </div>
+  
+          <button type="submit">Validez vos choix !</button>
+      </form>
+
+      <div class="resultats">
+        <h2>Cliquez sur valider pour voir les résultats</h2>
+        <p class="aide"></p>
+        <p class="note"></p>
+
+      </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
